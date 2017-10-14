@@ -1,0 +1,23 @@
+{
+  "name": "lk-web3-utils",
+  "description": "Provides the utils from web3 without the need for an RPC connection",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "keywords": [
+    "web3",
+    "ethereum"
+  ],
+  "dependencies": {
+    "web3": "0.20.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.18.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1"
+  },
+  "scripts": {
+    "build": "node tools/build"
+  }
+}
